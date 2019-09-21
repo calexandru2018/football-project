@@ -1,0 +1,146 @@
+a{
+	text-decoration:none;
+}
+div{
+	overflow:auto;
+}
+table{
+	border-radius: 7px;
+	border-top: 5px solid #04589F;
+	border-bottom: 5px solid #04589F;
+}
+#logo img{
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	width:60%;
+	min-width: 800px;
+}
+#nav_bar{
+	margin-left: auto;
+	margin-right: auto;
+	width: 65%;
+	min-width: 800px;
+}
+#nav_bar div{
+	display: inline;
+	cursor: pointer;
+}
+#nav_bar li{
+	display: inline;
+	padding-left: 40px;
+	padding-right: 35px;
+}
+#container{
+	margin-left: auto;
+	margin-right: auto;
+	width: 60%;
+	min-width: 800px;
+}
+#msg{
+	/*display:none;*/
+	padding: 10px;
+}
+
+
+/*Standlone*/
+.halve-list{
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+.halve-list th{
+	background-color: #F5DEB3;
+}
+
+.full-list{
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+}
+.full-list th{
+	background-color: #F5DEB3;
+}
+.header-color{
+	background-color: #F5DEB3;
+}
+
+.input-small{
+	width: 25%;
+}
+.input-medium{
+	width: 50%;
+}
+.input-big{
+	width: 75%;
+}
+.input-full{
+	width: 100%;
+}
+
+.text-center{
+	text-align:center;
+}
+.text-left{
+	text-align:left;
+}
+.text-right{
+	text-align:right;
+}
+
+.options{
+	margin-left: auto;
+	margin-right: auto;
+	width: 90px;
+}
+.stats, .edit, .delete{
+	cursor: pointer; 
+	float: left;
+}
+.stats img, .edit img, .delete img{
+	width: 30px !important;
+}
+.wrapword{
+	white-space: -moz-pre-wrap !important;  /* Mozilla, since 1999 */
+	white-space: -pre-wrap;      /* Opera 4-6 */
+	white-space: -o-pre-wrap;    /* Opera 7 */
+	white-space: pre-wrap;       /* css-3 */
+	word-wrap: break-word;       /* Internet Explorer 5.5+ */
+	word-break: break-all;
+	white-space: normal;
+}
+
+/*Show more*/
+div.text-container {
+    margin: 0 auto;
+    width: 75%;    
+}
+
+.hideContent {
+    overflow: hidden;
+    line-height: 1em;
+    height: 3em;
+}
+
+.showContent {
+    line-height: 1em;
+    height: auto;
+}
+.showContent{
+    height: auto;
+}
+.show-more a:link    {color:#F5DEB3;}
+.show-more a:visited {color:#F5DEB3;}
+.show-more a:hover   {color:#F5DEB3;}
+.show-more a:active  {color:black;} 
+.show-more {
+	border-radius: 15px;
+	font-weight:bold;
+	line-height: 5px;
+    padding: 10px 0;
+    text-align: center;
+    background-color: rgba(0, 50, 50, 0.2);
+    width: 20%;
+	margin-left: auto;
+	margin-right: auto;
+}
